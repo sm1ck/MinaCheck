@@ -1,9 +1,19 @@
 # MinaCheck
 Some scripts for Mina.
 
-Ubuntu/Debian:
+## Install
 
-apt-get install curl
+**Ubuntu/Debian:**
+
+`apt-get install curl git`
+
+`cd; git clone https://github.com/sm1ck/MinaCheck.git`
+
+`mv MinaCheck/* .`
+
+`chmod +x peers.sh checkheight.sh push.sh`
+
+**Manual actions**
 
 https://pushover.net/ - download and install push app.
 
