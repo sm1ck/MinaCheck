@@ -13,5 +13,6 @@ Example cron (crontab -e):
 
 */15 * * * * bash checkheight.sh
 
-To adapt for daemon instead of docker remove the lines needed for docker:
+To adapt for daemon instead of docker remove the code needed for docker:
 
+remove "docker exec -it mina ".
