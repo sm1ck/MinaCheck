@@ -7,7 +7,7 @@ Your User Key = user in push.sh
 
 token = https://pushover.net/apps/build create app token in push.sh
 
-Example cron:
+Example cron (crontab -e):
 
 */15 * * * * bash peers.sh
 
