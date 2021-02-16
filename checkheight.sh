@@ -7,7 +7,18 @@ if [ "$VAR1" -ge "$VAR2" ]; then
         echo $VAR1
         echo $VAR2
         echo "You are at the proper block height."
+        echo "0" > "retries.txt"
 else
         echo "Your node is living in the past..."
-        bash push.sh
+        VAR3=$(cat retries.txt)
+        # Попыток 2. На третью шлем.
+        if [ "$VAR3" -ge "2" ]; then
+                bash push.sh
+                echo "Block height is wrong. Send push."
+                echo "0" > "retries.txt"
+        else
+                VAR3=$((VAR3+1))
+                echo "${VAR3}" > "retries.txt"
+                echo "Block height is wrong. Retries: #${VAR3}"
+        fi
 fi
