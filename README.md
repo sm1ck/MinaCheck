@@ -32,3 +32,11 @@ To adapt for daemon instead of docker remove the code needed for docker:
 remove "docker exec mina ".
 
 (удалить эту строку для демона в файлах)
+
+iOS settings:
+
+![alt text](https://s227vla.storage.yandex.net/rdisk/e16779345caa5242a54bcf9b4552b3d06472d54b33cc7895f9a78700d4997371/602c615a/5oFYTproQs5IX7nyBKo3AcOGV6ximZ8Ri5scuWnulacLM_mRSVeIOUke1LZrHI7hvOhH6xNNPcVyrmLLYOEkwQ==?uid=245184877&filename=IMG_2317.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=245184877&fsize=303418&hid=04d4f567fe7193909aaafb27380e20d1&media_type=image&tknv=v2&etag=07b928635cb6b892a6e489c181248fa5&rtoken=iVpEktA29wTz&force_default=yes&ycrid=na-299731fe073a667296d09c4a010444fc-downloader11f&ts=5bb7d30778a80&s=800608f5b081c4ead4e864ccae299369d4461eab663ecbca53ef688e7ad6e6fe&pb=U2FsdGVkX1_lOEKIVWNrmDy2pcfA5tpIy11pY1oyoaMHk5-UPMLyTtbbVQxVseIH49X3kaiz_MYQ4NmrYrE_clDVzxIFmq91IbKWSZJ4dE8)
+
+Demo:
+
+![alt text](https://s60man.storage.yandex.net/rdisk/fce25dfd971f5c4f5f5bc8d85cb80dec640a923402eca2d8682dd112c34bd3e3/602c61ae/5oFYTproQs5IX7nyBKo3AUumhxW3wLIKkRglcZgOUxVQoUS1TMVqrWQDGwtUYdEbe5BuoYz9r1sA6Qd809Y1oA==?uid=245184877&filename=mina.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=245184877&fsize=1107081&hid=b72335ae1d3cf02af04a653d2c23e233&media_type=image&tknv=v2&etag=d6780161f1fd40f250dba252582d84a6&rtoken=3N4SLqpCpwPJ&force_default=yes&ycrid=na-6a8c624a10d9706a793dd526c4fc4572-downloader11f&ts=5bb7d35794780&s=cada39a4904fc9123749c0dbeabfc8dbf827bc4726d671f803d4aad6a57ca336&pb=U2FsdGVkX18c6TnsDQFa83BC4l8KGFkzcZ9jNM98q1EoXR6uj-D6phrp8w0fLa_XZi03OFqaK2rcraAvMYvLTHO2zdDkfNjNLXW1YPG8I-4)
