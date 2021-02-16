@@ -15,4 +15,4 @@ Example cron (crontab -e):
 
 To adapt for daemon instead of docker remove the code needed for docker:
 
-remove "docker exec -it mina ".
+remove "docker exec mina ".
