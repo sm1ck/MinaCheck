@@ -1,6 +1,10 @@
 # MinaCheck
 Some scripts for Mina.
 
+Ubuntu/Debian:
+
+apt-get install curl
+
 https://pushover.net/ - download and install push app.
 
 (скачать приложение)
