@@ -12,3 +12,6 @@ Example cron (crontab -e):
 */15 * * * * bash peers.sh
 
 */15 * * * * bash checkheight.sh
+
+To adapt for daemon instead of docker remove the lines needed for docker:
+
