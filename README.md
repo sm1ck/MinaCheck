@@ -19,13 +19,13 @@ token = https://pushover.net/apps/build create app token in push.sh
 
 Example cron (crontab -e and use SHELL=/bin/bash for better):
 
-(настройте крон crontab -e или nano /etc/crontab также измените SHELL на SHELL=/bin/bash лучше)
+(настройте крон crontab -e или nano /etc/crontab также измените SHELL на SHELL=/bin/bash лучше, /15 = раз в 15 минут)
 
 */15 * * * * bash peers.sh
 
 */15 * * * * bash checkheight.sh
 
-![alt text](https://s576sas.storage.yandex.net/rdisk/768e345b7d09c572fb51593787485e108f525115a721e1d1f0e9be9e2c3a383b/602c5c78/5oFYTproQs5IX7nyBKo3AQwE4c2NPa6SYS8nn0e2p3bcD4x_zumZqd5Btmuf9_AvU3bXTZeIyZlWhHt2QkNLeg==?uid=245184877&filename=%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-02-17%20%D0%B2%2000.58.49.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=245184877&fsize=306510&hid=238880d5d93a4f40e7551b18fbeb05cf&media_type=image&tknv=v2&etag=437acb44ffc43eefe26f7423ef247d71&rtoken=BrjchjKtL3YT&force_default=yes&ycrid=na-41c625562808afb4923cb3f3fe6f9f33-downloader4f&ts=5bb7ce5f60e00&s=25c8a353eeb6bb50bad06ba5be09e278bafa15e8ba3647c749dd7b9f04d692a0&pb=U2FsdGVkX1_wnX4Uvc2NkIilW3EQnExKSTwJpwCgMAVK1tn47hFBSAzkwZuHiUc84tRsY_KWBds_BLDZVbdqgvFlFeFayxz_BlypZ1nBXAc)
+![alt text](https://s118vla.storage.yandex.net/rdisk/63b48ee89761ade089bf42bc3cb62f8bcb24e2a1ba2dbe37e15be2d4323b1da5/602c5fc9/5oFYTproQs5IX7nyBKo3AbouzABTCcQWR1gNWH1Ex4AVHXiQwbh6NyYH9KmpVKRJ3HQBM01oEq3MtYLSWZrjMg==?uid=245184877&filename=%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-02-17%20%D0%B2%2001.13.34.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=245184877&fsize=319184&hid=0b4c7934bd4a15d3338b58fa458a6a38&media_type=image&tknv=v2&etag=336211c4701cfeba5b6d5b02559bb45f&rtoken=1pp2WMrqUlML&force_default=yes&ycrid=na-67f7a770baf6c1d6ea8355722cbb617e-downloader14f&ts=5bb7d1890c440&s=0e954c911736a9510d983fc5a1bd4b10fd567281950ed0798594354921a340a9&pb=U2FsdGVkX18S1cMiWImHLRVH_XJblYCRygVdfU7TJL7dz3rAT-CCMSDND2lNRLqaQ6KdsfxkSk5P7VPGV9Qan6wmzkqpWJkSv2QcUc3yJEs)
 
 To adapt for daemon instead of docker remove the code needed for docker:
 
