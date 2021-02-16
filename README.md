@@ -35,9 +35,11 @@ Example cron (crontab -e and use SHELL=/bin/bash for better):
 
 (настройте крон crontab -e или nano /etc/crontab также измените SHELL на SHELL=/bin/bash лучше, /15 = раз в 15 минут)
 
-*/15 * * * * bash peers.sh
+`*/15 * * * * bash peers.sh`
 
-*/15 * * * * bash checkheight.sh
+`*/15 * * * * bash checkheight.sh`
+
+*Ctrl + o* and *Ctrl + x* (nano editor)
 
 ![alt text](https://s118vla.storage.yandex.net/rdisk/63b48ee89761ade089bf42bc3cb62f8bcb24e2a1ba2dbe37e15be2d4323b1da5/602c5fc9/5oFYTproQs5IX7nyBKo3AbouzABTCcQWR1gNWH1Ex4AVHXiQwbh6NyYH9KmpVKRJ3HQBM01oEq3MtYLSWZrjMg==?uid=245184877&filename=%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-02-17%20%D0%B2%2001.13.34.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=245184877&fsize=319184&hid=0b4c7934bd4a15d3338b58fa458a6a38&media_type=image&tknv=v2&etag=336211c4701cfeba5b6d5b02559bb45f&rtoken=1pp2WMrqUlML&force_default=yes&ycrid=na-67f7a770baf6c1d6ea8355722cbb617e-downloader14f&ts=5bb7d1890c440&s=0e954c911736a9510d983fc5a1bd4b10fd567281950ed0798594354921a340a9&pb=U2FsdGVkX18S1cMiWImHLRVH_XJblYCRygVdfU7TJL7dz3rAT-CCMSDND2lNRLqaQ6KdsfxkSk5P7VPGV9Qan6wmzkqpWJkSv2QcUc3yJEs)
 
