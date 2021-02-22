@@ -4,7 +4,6 @@ VAR1=$(docker exec mina coda client status  | grep 'Block height' | grep -o -E '
 VAR2=$(cat blocklength.txt | grep 'blockchainLength' | grep -o -E '[0-9]+' | tail -1 | tr -cd '0-9')
 rm -f blocklength.txt
 re='^[0-9]+$'
-VAR1='t'
 if ! [[ $VAR1 =~ $re ]] || ! [[ $VAR2 =~ $re ]] ; then
    NOW=$(date +"%d-%m-%Y %H:%M:%S")
    echo "[$NOW] Error: not a number" >> crash.log
