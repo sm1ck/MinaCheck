@@ -10,7 +10,6 @@ if ! [[ $VAR1 =~ $re ]] || ! [[ $VAR2 =~ $re ]] ; then
    echo "Error: not a number" >&2; exit 1
 fi
 CALC=$((VAR2-VAR1)) # MinaExplorer - Your_Node, should be 0/1/2
-re='^[0-9]+$'
 if [ "$CALC" -le 2 ]; then
         echo $VAR1
         echo $VAR2
