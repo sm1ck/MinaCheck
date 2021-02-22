@@ -5,7 +5,7 @@ Some scripts for Mina.
 
 **Ubuntu/Debian:**
 
-`apt-get install curl git`
+`apt-get install curl git jq`
 
 `cd; git clone https://github.com/sm1ck/MinaCheck.git`
 
@@ -38,6 +38,8 @@ Example cron (crontab -e and use SHELL=/bin/bash for better):
 `*/15 * * * * bash peers.sh`
 
 `*/15 * * * * bash checkheight.sh`
+
+`0 */6 * * * root bash restartnode.sh`
 
 *Ctrl + o* and *Ctrl + x* (nano editor)
 
