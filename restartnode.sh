@@ -12,6 +12,13 @@ NEXTPROP="${NEXTPROP:1}"
 NEXTPROP="${NEXTPROP:0:-1}"
 echo "Next prop is at  $NEXTPROP"
 
+re='^[0-9]+$'
+if ! [[ $NEXTPROP =~ $re ]] ; then
+   NOW1=$(date +"%d-%m-%Y %H:%M:%S")
+   echo "[$NOW1] [restartnode.sh] Error: not a number" >> crash.log
+   echo "Error: not a number" >&2; exit 1
+fi
+
 # Get current time and calculate time left before next proposal
 NOW="$(date +%s%N | cut -b1-13)"
 echo "Where are now at $NOW"
