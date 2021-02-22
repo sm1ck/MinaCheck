@@ -35,9 +35,9 @@ Example cron (crontab -e and use SHELL=/bin/bash for better):
 
 (настройте крон crontab -e или nano /etc/crontab также измените SHELL на SHELL=/bin/bash лучше, /15 = раз в 15 минут)
 
-`*/15 * * * * bash peers.sh`
+`*/15 * * * * root bash peers.sh`
 
-`*/15 * * * * bash checkheight.sh`
+`*/15 * * * * root bash checkheight.sh`
 
 `0 */6 * * * root bash restartnode.sh`
 
