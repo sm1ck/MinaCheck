@@ -1,6 +1,6 @@
 #!/bin/bash
 curl -s 'https://api.minaexplorer.com/summary' > blocklength.txt
-VAR1=$(docker exec mina coda client status  | grep 'Block height' | grep -o -E '[0-9]+' | tr -cd '0-9')
+VAR1=$(docker exec mina mina client status  | grep 'Block height' | grep -o -E '[0-9]+' | tr -cd '0-9')
 VAR2=$(cat blocklength.txt | grep 'blockchainLength' | grep -o -E '[0-9]+' | tail -1 | tr -cd '0-9')
 rm -f blocklength.txt
 re='^[0-9]+$'
