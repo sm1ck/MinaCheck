@@ -7,7 +7,7 @@ readonly SECONDS_PER_HOUR=3600
 # 6 h
 CHECKTIME=360
 
-NEXTPROP="$(docker exec mina coda client status -json | grep -v 'Using password from environment variable CODA_PRIVKEY_PASS' | jq .next_block_production.timing[1].time)"
+NEXTPROP="$(docker exec mina mina client status -json | grep -v 'Using password from environment variable CODA_PRIVKEY_PASS' | jq .next_block_production.timing[1].time)"
 NEXTPROP="${NEXTPROP:1}"
 NEXTPROP="${NEXTPROP:0:-1}"
 echo "Next prop is at  $NEXTPROP"
